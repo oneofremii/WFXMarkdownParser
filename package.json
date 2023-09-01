@@ -28,5 +28,8 @@
   "devDependencies": {
     "jsdom": "^22.1.0",
     "jsdom-global": "^3.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
