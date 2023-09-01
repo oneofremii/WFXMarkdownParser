@@ -1,0 +1,32 @@
+{
+  "name": "wfx-markdown-parser",
+  "version": "1.0.0",
+  "description": "Powerfull Markdown Parser",
+  "main": "lib/markdownParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisrealhymika/WFXMarkdownParser.git"
+  },
+  "keywords": [
+    "WFX",
+    "Module",
+    "Markdown",
+    "Parser"
+  ],
+  "author": "WeFusionX - mikaaa.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisrealhymika/WFXMarkdownParser/issues"
+  },
+  "homepage": "https://github.com/thisrealhymika/WFXMarkdownParser#readme",
+  "dependencies": {
+    "markdown-it": "^13.0.1"
+  },
+  "devDependencies": {
+    "jsdom": "^22.1.0",
+    "jsdom-global": "^3.0.2"
+  }
+}
