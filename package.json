@@ -30,6 +30,6 @@
     "jsdom-global": "^3.0.2"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@thisrealhymika:registry": "https://npm.pkg.github.com"
   }
 }
