@@ -1,4 +1,4 @@
-name: Publish to GitHub Packages Active
+name: Publish to GitHub Packages
 
 on:
   push:
@@ -19,12 +19,7 @@ jobs:
           node-version: 14  # Choose the Node.js version you need
 
       - name: Authenticate with GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{secrets.GITHUB_TOKEN}}" >> ~/.npmrc
-
-      - name: Install dependencies and build package
-        run: |
-          npm install
-          npm run build
+        run: echo "//npm.pkg.github.com/:_authToken=${{secrets.MY_TOKEN}}" >> ~/.npmrc
 
       - name: Publish to GitHub Packages
         run: npm publish --access public
