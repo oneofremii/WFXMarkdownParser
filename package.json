@@ -4,7 +4,8 @@
   "description": "Powerfull Markdown Parser",
   "main": "lib/markdownParser.js",
   "scripts": {
-    "start": "node lib/markdownParser.js"
+    "start": "node lib/markdownParser.js",
+    "build": "npm run start"
   },
   "repository": {
     "type": "git",
