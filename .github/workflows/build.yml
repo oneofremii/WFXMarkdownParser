@@ -16,5 +16,6 @@ jobs:
         run: mkdir artifact
       - uses: actions/upload-artifact@v3
         with:         
-         name: artifact.zip         
-         path: artifact
+         name: assets.zip         
+         path: ./root
+         retention-days: 7
