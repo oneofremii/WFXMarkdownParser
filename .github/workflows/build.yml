@@ -14,5 +14,6 @@ jobs:
      steps:
       - uses: actions/upload-artifact@v3
         with:
-         name: artifact         
-         path: path/to/artifact/
+         working-directory: ${{ home }}
+         name: artifact.zip         
+         path: ${HOME}
