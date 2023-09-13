@@ -14,6 +14,11 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm start
+      - name: Publish to github registry
+        run: |
+          echo "$(jq '.publishConfig.registry = "https://npm.pkg.github.com"' package.json)" > package.json
+          echo "$(jq '.name = "@scope/package"' package.json)" > package.json
+          npm publish --@scope:registry=https://npm.pkg.github.com
 
   publish-gpr:
     needs: build
