@@ -2,7 +2,7 @@
 
 A versatile and customizable Markdown to HTML parser developed by WeFusionX (mikaaa.dev).
 
-## Features
+## Features 
 
 - Converts Markdown text to HTML.
 - Supports a wide range of Markdown syntax.
