@@ -12,8 +12,9 @@ jobs:
   container-job:
      runs-on: ubuntu-latest
      steps:
-      - run: mkdir /artifact
+      - name: temporary
+        run: mkdir artifact
       - uses: actions/upload-artifact@v3
         with:         
          name: artifact.zip         
-         path: /artifact
+         path: artifact
