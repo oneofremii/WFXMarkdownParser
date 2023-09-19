@@ -31,6 +31,6 @@
     "jsdom-global": "^3.0.2"
   },
   "publishConfig": {
-    "@thisrealhymika:registry": "https://npm.pkg.github.com"
+    "@mikaaamoe:registry": "https://npm.pkg.github.com"
   }
 }
