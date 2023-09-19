@@ -9,7 +9,7 @@ on:
     - main
 
 jobs:
-  container-job:
+  CheckDependencies:
      runs-on: ubuntu-latest
      steps:
       - name: temporary
