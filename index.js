@@ -1,4 +1,4 @@
-const parseMarkdown = require('./markdownParser');
+const parseMarkdown = require("./markdownParser");
 
 const markdownText = `
 # Sample Markdown
