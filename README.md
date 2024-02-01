@@ -1,6 +1,6 @@
 # WFXMarkdownParser
 
-A versatile and customizable Markdown to HTML parser developed by WeFusionX (mikaaa.dev).
+A versatile and customizable Markdown to HTML parser.
 
 ## Features
 
@@ -89,10 +89,8 @@ This package is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 You can use this template as a starting point for your package's README.md, replacing "wfx-markdown-parser" with the actual name of your npm package and customizing the content further as needed.
 ```
 
-## Developer and Contributor
-
-- [WeFusionX](https://wfxlabs.rin4ever.xyz)
-- [HyMikaaa](https://rin4ever.xyz)
+## Developer/Maintainer
+- [Shiorii](https://fypmoon.org)
 
 #### Other Credit
 
